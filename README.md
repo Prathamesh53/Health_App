@@ -1,16 +1,29 @@
-# trackme
+# TrackMe - Weight Tracker App
 
-A new Flutter project.
+TrackMe is a Flutter application designed to help users log their daily weight and track progress over time. The app is integrated with Firebase for user authentication and Firestore for storing weight records. Users can set and update daily notification reminders, which are scheduled using Flutter's local notification package.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## Key Features:
+- **Firebase Authentication**: Secure user login and registration.
+- **Daily Weight Records**: Add, view, and manage daily weight entries.
+- **Customizable Notifications**: Set and update daily reminders for logging weight.
+- **Firestore Integration**: Real-time database for storing weight data and notification preferences.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Images
+
+![Weight Record](assets/images/signup.png)
+
+
+![Notification Setup](assets/images/login.png)
+
+
+![Home Screen](assets/images/records.png)
+
+## Technologies Used:
+- **Flutter**: Cross-platform mobile app development.
+- **Firebase Auth**: Secure user authentication.
+- **Cloud Firestore**: Real-time NoSQL database.
+- **Flutter Local Notifications**: Manage local notifications for scheduling daily reminders.
+  
